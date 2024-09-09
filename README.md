@@ -30,6 +30,7 @@ This chatbot serves as a user-friendly interface for individuals seeking informa
 2. The chatbot does not understand complex or ambiguous queries.
 
 ### Software and Programming Languages Used
-Microsoft Excel
-Microsoft PowerBI
-Microsoft PowerPoint
+- Microsoft Excel
+- Microsoft VS Code
+- Python with Jupyter Notebook & Pandas
+- Jetbrains Writerside (For Documentation)
