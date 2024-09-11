@@ -4,13 +4,19 @@
 
 ## Project Content
 #### Task 1: Data Cleaning & Analysis using Jupyter Notebook
-- Extract financial data from provided 10-K documents.
-- Conduct a basic analysis to identify significant financial trends and indicators.
-- Format and clean the data for further processing in an AI model.
+
+> [Excel File (Extracted Data)](https://github.com/git-elton-s/Forage-BCG-GenAI/blob/main/Task%201%20-%20Data%20Extraction%20and%20Initial%20Analysis.xlsx)
+> [Jupyter Notebook File](https://github.com/git-elton-s/Forage-BCG-GenAI/blob/main/Task%201%20-%20Data%20Extraction%20and%20Analysis.ipynb)
+
+1.  Extract financial data from provided 10-K documents.
+2.  Conduct a basic analysis to identify significant financial trends and indicators.
+3.  Format and clean the data for further processing in an AI model.
+
 
 #### Task 2: that can analyze financial data and provide insights.
-
 This chatbot serves as a user-friendly interface for individuals seeking information about various financial metrics, such as revenue, income, assets, liabilities, and cash flow.
+> [Main Python File](https://github.com/git-elton-s/Forage-BCG-GenAI/blob/main/Task%202%20-%20Chatbot.py)
+> [Chatbot Documentation PDF](https://github.com/git-elton-s/Forage-BCG-GenAI/blob/main/Task%202%20-%20Documentation.pdf)
 
 ##### Feature improvements Over Original Project Requirements
 1. Enhanced User Interface
@@ -33,4 +39,4 @@ This chatbot serves as a user-friendly interface for individuals seeking informa
 - Microsoft Excel
 - Microsoft VS Code
 - Python with Jupyter Notebook & Pandas
-- Jetbrains Writerside (For Documentation)
+- Jetbrains Writerside & Canva (For Documentation)
