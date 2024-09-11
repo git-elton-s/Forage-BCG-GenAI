@@ -1,0 +1,56 @@
+Task 1: Calculate Percentage Total Revenue Growth and Percentage Net Income Growth
+
+Techniques for extracting key financial data from 10-Ks:
+https://www.sec.gov/resources-for-investors/investor-alerts-bulletins/how-read-10-k10-q
+
+Task instructions
+Your task is to manually extract key financial data for the last three fiscal years from the 10-K filings of Microsoft, Tesla, and Apple. Following the data collection, you will use Python to analyze this data, focusing on trends and insights that could inform the development of an AI-powered financial chatbot.
+
+Navigate to the SEC's EDGAR database:
+
+Microsoft
+Tesla
+Apple
+
+For each company, find the 10-K filings for the last three fiscal years.
+Extract the following financial figures: Total Revenue, Net Income, Total Assets, Total Liabilities, and Cash Flow from Operating Activities.
+Organize Your Data:
+
+Compile the extracted data into an Excel spreadsheet for easy reference during your Python analysis.
+
+Convert your Excel file to a CSV file for easier handling, then load it into a DataFrame.
+
+Use pandas to calculate year-over-year changes for each financial metric. You can do this by creating new columns in your DataFrame that represent the percentage change from one year to the next.
+
+Explore other aggregate functions or groupings to analyze the data across different dimensions (by company, over years, etc.).
+
+
+
+
+Task 2: Create a Chatbot Prototype
+
+Step 1: Preparation 
+Review the analyzed data: Quickly review the financial data you analyzed in Task 1 to refresh your memory on what information is available.
+Set up your environment: Ensure Python and essential libraries (like pandas for data handling and Flask for a simple web application, if applicable) are installed.
+Step 2: Chatbot design and data preparation
+Define predefined queries: Select 3 to 5 common financial queries (e.g., "What is the total revenue?", "How has net income changed over the last year?").
+Prepare responses: Use the analyzed financial data to create canned responses for these queries. This step involves mapping each predefined query to a specific response based on your data analysis.
+Step 3: Basic chatbot development
+Chatbot logic: Write a simple Python script that uses if-else statements to match user input (the predefined queries) to the responses you prepared. For a more interactive experience, consider using a basic Python library such as input() for command-line interaction or a simple Flask app for web-based interaction.
+
+
+def simple_chatbot(user_query):
+   if user_query == "What is the total revenue?":
+       return "The total revenue is [amount]."
+   elif user_query == "How has net income changed over the last year?":
+       return "The net income has [increased/decreased] by [amount] over the last year."
+   # Add more conditions for other predefined queries
+   else:
+       return "Sorry, I can only provide information on predefined queries."
+
+
+Step 4: Demonstration and documentation
+Test your chatbot: Spend a few minutes testing the chatbot with the predefined queries to ensure it responds correctly.
+Prepare a brief documentation: Write a short summary explaining how your chatbot works, the predefined queries it can respond to, and any limitations.
+Once you've completed the streamlined chatbot task, it's time to compile and submit your work. Please package your Python script, any test results, and a brief documentation of your chatbot's functionality and limitations into a single zip file.
+
